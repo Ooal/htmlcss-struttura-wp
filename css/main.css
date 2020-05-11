@@ -1,0 +1,76 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+header {
+  height: 150px;
+  width: 100%;
+  background-color: #f5ff82;
+}
+
+/* header */
+
+
+
+/* parte principale */
+
+.sezione1 {
+  margin : 10px 0;
+}
+
+.sezione1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sinistra, .destra , .centro{
+  float: left;
+
+}
+
+.sinistra {
+  width: 20%;
+  /* debug */
+  background-color: #df9deb;
+  height: 400px;
+
+}
+
+.centro {
+  width: 58%;
+  margin: 0 1%;
+  /* debug */
+  background-color: #802473;
+  height: 600px;
+}
+
+.destra {
+  width: 20%;
+}
+
+.sottosezioni {
+  margin-bottom: 10px;
+  /* debug */
+  background-color: #df9deb;
+  height: 250px;
+}
+
+/* parte principale */
+
+
+
+/* footer */
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #9ddeeb;
+}
+
+/* footer */
